@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: rgb(255, 235, 205);
+}
+
+input,button{
+    border:none;
+    outline: none;
+    height: 50px;
+}
+
+input{
+    width:321px;
+    font-size: 30px;
+    margin-bottom: 2px;
+    color:#000;
+  }
+
+  button{
+    margin: -1px;
+    font-weight: 500;
+    font-size: 2rem;
+    width:80px;
+  }
+
+  button:active, button:hover {
+    color: rgb(255, 235, 205);
+    background-color: black;
+  }
+
+.container{
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
